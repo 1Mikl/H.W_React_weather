@@ -1,0 +1,32 @@
+div.widget, div.widget_week {
+    margin: 15px 5px;
+    background-color: rgba(0, 85, 255, 0.4);
+    border-radius: 9px;
+    padding: 5px;
+    min-width: 120px;
+}
+div.date {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+}
+div.temp {
+    font-size: 2em;
+    color: rgba(0,0,0,0.9);
+}
+div.current {
+    margin: 80px 5px;
+    background-color: rgba(0, 85, 255, 0.2);
+    border-radius: 9px;
+    padding: 5px;
+    min-width: 120px;
+}
+
+
+div.widget:nth-child(n+26) {
+    display: none;
+}
+div.widget_week:nth-child(n+6) {
+    display: none;
+}
+
